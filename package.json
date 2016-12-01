@@ -1,0 +1,19 @@
+{
+  "name": "tcharlesworth-react",
+  "version": "1.0.0",
+  "description": "Portfolio website built with reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tCharlesworth/tcharlesworth-react.git"
+  },
+  "author": "Tim Charlesworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tCharlesworth/tcharlesworth-react/issues"
+  },
+  "homepage": "https://github.com/tCharlesworth/tcharlesworth-react#readme"
+}

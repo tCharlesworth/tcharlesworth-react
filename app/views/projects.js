@@ -5,7 +5,10 @@ class ProjectsView extends React.Component {
         return (
             <div className="text-center">
                 <p className="big-text text-blue">Projects</p>
-                <p>| - TinyTorch - | - DevMountain - | - Personal - |</p>
+                <p>| - Angular - | - React - | - KnockoutJS - |</p>
+                <p>| - Javascript - | - JQuery - | - Coffescript - |</p>
+                <p>| - Rails - | - NodeJs - | - Express - |</p>
+                <p>| - SQL - | - Mongo - | - Firebase - |</p>
             </div>
         )
     }

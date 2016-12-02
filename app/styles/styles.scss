@@ -6,7 +6,7 @@ body {
   margin: 0;
   background: #F4F4F4;
   font-family: 'Open Sans', sans-serif;
-  color: #6A6C6E;
+  color: $color-text;
 }
 
 * {
@@ -102,6 +102,20 @@ input[type="text"],input[type="password"],input[type="email"] {
 input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus {
   outline: none;
 }
+a {
+  text-decoration: none;
+  color: $color-text;
+}
+a:visited {
+  color: $color-text;
+}
+a:hover {
+  color: $color-blue;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 .drawer {
   max-height: 0;
@@ -149,16 +163,6 @@ header {
     li {
       display: inline;
       padding: 0 5px;
-      a {
-        text-decoration: none;
-        color: black;
-      }
-      a:visited {
-        color: black;
-      }
-      a:hover {
-        color: $color-green-dark;
-      }
     }
   }
   .header-hamburger {
@@ -193,6 +197,11 @@ header {
 .big-text {
   font-size: 4em;
   padding-top: 30vh;
+}
+.social-box {
+  background: #fff;
+  padding: 10px;
+  bottom: 10vh;
 }
 
 // End Default Size

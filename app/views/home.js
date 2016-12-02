@@ -1,6 +1,6 @@
 import React from 'react';
 
-class HomeComponent extends React.Component {
+class HomeView extends React.Component {
   render() {
     return  (
       <div className="text-center">
@@ -11,4 +11,4 @@ class HomeComponent extends React.Component {
   }
 }
 
-export default HomeComponent;
+export default HomeView;

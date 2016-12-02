@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ProjectsComponent extends React.Component {
+class ProjectsView extends React.Component {
     render() {
         return (
             <div className="text-center">
@@ -11,4 +11,4 @@ class ProjectsComponent extends React.Component {
     }
 }
 
-export default ProjectsComponent;
+export default ProjectsView;

@@ -90,6 +90,9 @@ button:hover {
 .text-blue {
   color: $color-blue;
 }
+.bg-white {
+  background-color: #fff;
+}
 .cursor-hover:hover {
   cursor: pointer;
 }
@@ -212,8 +215,14 @@ header {
   padding: 10px;
   bottom: 10vh;
 }
-.projects h3 {
-  font-style: italic;
+.projects {
+  .container {
+    margin: 60px auto;
+    h3 {
+      font-style: italic;
+      padding: 5px;
+    }
+  }
 }
 
 // End Default Size

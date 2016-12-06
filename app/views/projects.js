@@ -12,21 +12,32 @@ class ProjectsView extends React.Component {
                     </p>
                     <div className="projects">
                         <div className="half left">
-                            <h3>TinyTorch</h3>
+                            <div className="container middle bg-white">
+                                <img className="img-responsive" src={"assets/flatnotes.png"} />
+                                <h3>TinyTorch</h3>
+                            </div>
+                            <div className="container middle bg-white">
+                                <img className="img-responsive" src={"assets/onlineRecipes.png"} />
+                                <h3>Kitchen Friend</h3>
+                            </div>
+                            <div className="container middle bg-white">
+                                <img className="img-responsive" src={"assets/flatnotes.png"} />
+                                <h3>Flat Notes</h3>
+                            </div>
                         </div>
                         <div className="half right">
-                            <h3>Dev Mountain</h3>
-                        </div>
-                        <div className="clearfix"></div>
-                        <div className="half left">
-                            <h3>Kitchen Friend</h3>
-                        </div>
-                        <div className="half right">
-                            <h3>Meteors</h3>
-                        </div>
-                        <div className="clearfix"></div>
-                        <div className="half left">
-                            <h3>Jquery Racing</h3>
+                            <div className="container middle bg-white">
+                                <img className="img-responsive" src={"assets/flatnotes.png"} />
+                                <h3 className="">DevMountain</h3>
+                            </div>
+                            <div className="container middle bg-white">
+                                <img className="img-responsive" src={"assets/jquery-racing.png"} />
+                                <h3>Jquery Racing</h3>
+                            </div>
+                            <div className="container middle bg-white">
+                                <img className="img-responsive" src={"assets/meteors.png"} />
+                                <h3>Meteors</h3>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -34,20 +34,22 @@ button:hover {
 .btn-block {
   width: 100%;
 }
-.app-wrapper {
-  width: 100%;
-  padding: 0 10px;
-  margin-top: 70px;
+.wrapper {
+  width: 60%;
+  margin: auto;
 }
 .container {
-  width: 100%;
-  background-color: $color-grey-light;
+  width: 80%;
+  margin: auto;
 }
 .left {
   float: left;
 }
 .right {
   float: right;
+}
+.middle {
+  margin: auto;
 }
 .clearfix {
   clear: both;
@@ -73,9 +75,11 @@ button:hover {
 }
 .majority {
   width: 66%;
+  display: inline-block;
 }
 .third {
   width: 33%;
+  display: inline-block;
 }
 .text-center {
   text-align: center;
@@ -196,12 +200,20 @@ header {
 }
 .big-text {
   font-size: 4em;
+}
+.page-padding {
   padding-top: 30vh;
+}
+.page-padding-half {
+  padding-top: 10vh;
 }
 .social-box {
   background: #fff;
   padding: 10px;
   bottom: 10vh;
+}
+.projects h3 {
+  font-style: italic;
 }
 
 // End Default Size
@@ -222,6 +234,11 @@ header {
     .header-drawer {
       display: block;
     }
+  }
+
+  .third {
+    width: 100%;
+    display: block;
   }
 }
 /* Mobile Size */

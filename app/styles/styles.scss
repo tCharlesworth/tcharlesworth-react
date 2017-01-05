@@ -42,6 +42,9 @@ button:hover {
   width: 80%;
   margin: auto;
 }
+.paragraph {
+  text-align: center;
+}
 .left {
   float: left;
 }
@@ -99,6 +102,10 @@ button:hover {
 .img-responsive {
   width: 100%;
   height: auto;
+}
+.img-max-height {
+  max-height: 250px;
+  width: auto;
 }
 
 input[type="text"],input[type="password"],input[type="email"] {
@@ -264,5 +271,7 @@ header {
 }
 /* Mobile Size */
 @media (max-width: 400px) {
-
+  .half {
+    width: 100%;
+  }
 }

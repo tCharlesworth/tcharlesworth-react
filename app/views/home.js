@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class HomeView extends React.Component {
   render() {
@@ -6,7 +7,11 @@ class HomeView extends React.Component {
       <div className="text-center">
         <p className="big-text page-padding text-blue">Web Developer</p>
         <div className="container text-center">
-            <p>| - Web Portfolio - | - About - | - VR <small>(Coming Soon)</small> - |</p>
+            <p>
+              | <Link to="/portfolio">- Web Portfolio -</Link> | &nbsp;
+              <Link to="/about">- About -</Link> | 
+              - VR <small>(Coming Soon)</small> - |
+            </p>
         </div>
       </div>
     )

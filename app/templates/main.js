@@ -2,7 +2,7 @@ import React from 'react';
 
 import ReactCssTransitionGroup from 'react-addons-css-transition-group';
 import HeaderComponent from '../components/header.js';
-import SocialLinksComponent from '../components/socialLinks.js'
+import SocialLinksComponent from '../components/socialLinks.js';
 
 class MainTemplate extends React.Component {
   render() {

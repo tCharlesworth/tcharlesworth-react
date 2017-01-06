@@ -90,6 +90,16 @@ button:hover {
 .text-white {
   color: #fff;
 }
+.link-white {
+  color: #fff;
+}
+.link-white:visited {
+  color: #fff;
+}
+.link-white:hover {
+  color: #fff;
+  cursor: pointer;
+}
 .text-blue {
   color: $color-blue;
 }

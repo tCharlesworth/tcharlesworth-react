@@ -6,10 +6,7 @@ class HomeView extends React.Component {
       <div className="text-center">
         <p className="big-text page-padding text-blue">Web Developer</p>
         <div className="container text-center">
-            <p>| - Angular - | - React - | - KnockoutJS - |</p>
-            <p>| - Javascript - | - JQuery - | - Ruby - | - Coffescript - |</p>
-            <p>| - Rails - | - NodeJs - | - Express - |</p>
-            <p>| - SQL - | - Mongo - | - Firebase - |</p>
+            <p>| - Web Portfolio - | - About - | - VR <small>(Coming Soon)</small> - |</p>
         </div>
       </div>
     )

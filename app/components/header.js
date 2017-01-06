@@ -18,7 +18,7 @@ class HeaderComponent extends React.Component {
                 <nav>
                     <ul className="header-links">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
                         <li><Link to="/about">About</Link></li>
                     </ul>
                     <div className="header-hamburger" onClick={ this.toggleDrawer.bind(this) }>
@@ -30,7 +30,7 @@ class HeaderComponent extends React.Component {
                     <div className="clearfix" />
                     <ul className={"header-drawer drawer "+this.state.drawer}>
                         <li><Link to="/" onClick={ this.toggleDrawer.bind(this) }>Home</Link></li>
-                        <li><Link to="/projects" onClick={ this.toggleDrawer.bind(this) }>Projects</Link></li>
+                        <li><Link to="/portfolio" onClick={ this.toggleDrawer.bind(this) }>Portfolio</Link></li>
                         <li><Link to="/about" onClick={ this.toggleDrawer.bind(this) }>About</Link></li>
                     </ul>
                 </nav>

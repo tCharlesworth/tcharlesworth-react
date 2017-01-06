@@ -15,6 +15,7 @@ class AboutView extends React.Component {
                         C++. I was drawn to web development because it is an industry constantly striving to find the best programming
                         practices. When I am not programming you might find me golfing or climbing one of Utah's many hiking trails.
                     </p>
+                    <div className="clearfix"></div>
                 </div>
             </div>
         )

@@ -214,6 +214,9 @@ header {
 .big-text {
   font-size: 4em;
 }
+.medium-text {
+  font-size: 2.2em;
+}
 .page-padding {
   padding-top: 30vh;
 }
@@ -268,10 +271,20 @@ header {
     width: 100%;
     display: block;
   }
+
+  .wrapper {
+    width: 80%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .half {
+    width: 100%;
+    display: block;
+  }
 }
 /* Mobile Size */
 @media (max-width: 400px) {
-  .half {
-    width: 100%;
-  }
 }

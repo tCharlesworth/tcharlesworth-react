@@ -4,16 +4,16 @@ import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 // Route Components
 import MainTemplate from './templates/main.js';
 // Route Views
-import HomeView     from './views/home.js';
-import AboutView    from './views/about.js';
-import ProjectsView from './views/projects.js';
+import HomeView      from './views/home.js';
+import AboutView     from './views/about.js';
+import PortfolioView from './views/portfolio.js';
 
 // Route Config
 var routes = (
     <Router history={hashHistory}>
         <Route path="/" component={MainTemplate}>
             <IndexRoute component={HomeView} />
-            <Route path="/projects" component={ProjectsView} />
+            <Route path="/portfolio" component={PortfolioView} />
             <Route path="/about"    component={AboutView} />
         </Route>
     </Router>

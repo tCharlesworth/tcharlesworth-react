@@ -241,7 +241,9 @@ header {
 }
 .projects {
   .container {
-    margin: 60px auto;
+    margin: 20px;
+    display: inline-block;
+    max-width: 250px;
     .project-header {
       font-size: 1em;
       i {

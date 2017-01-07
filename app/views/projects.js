@@ -28,7 +28,7 @@ class ProjectsView extends React.Component {
                     <div className="projects">
                         {this.state.projects.map((project) => {
                             return (
-                                <ProjectCard project={project}/>
+                                <ProjectCard key={project.id} project={project}/>
                             );
                         })}
                     </div>

@@ -296,7 +296,24 @@ header {
     width: 100%;
     display: block;
   }
+  .left {
+    float: none;
+    margin: auto;
+  }
+  .right {
+    float: none;
+    margin: auto;
+  }
 }
 /* Mobile Size */
 @media (max-width: 400px) {
+  .social-box {
+    position: static;
+    display: block;
+    text-align: center;
+    li {
+      display: inline-block;
+      padding: 4px;
+    }
+  }
 }

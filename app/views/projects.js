@@ -1,8 +1,21 @@
 import React from 'react';
 
 import ProjectCard from '../components/projectCard.js';
+import ProjectDataUtil from '../utils/projectData.js';
 
 class ProjectsView extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            projects: []
+        };
+    }
+    componentDidMount() {
+        // Load projects
+        this.setState({
+            projects: ProjectDataUtil.GetProjects()
+        });
+    }
     render() {
         return (
             <div>
@@ -13,16 +26,11 @@ class ProjectsView extends React.Component {
                         working together to successfully accomplish a business vision. Below are a few I have worked on recently.
                     </p>
                     <div className="projects">
-                        <div className="half project-half left">
-                            <ProjectCard projectName="TinyTorch" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/tinytorch-snapshot.png" projectLink="https://www.tinytorch.com" />
-                            <ProjectCard projectName="Flat Notes" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/flatnotes.png" projectLink="https://flatnotes.firebaseapp.com" />
-                            <ProjectCard projectName="Jquery Racing" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/jquery-racing.png" projectLink="https://tcharlesworth.github.io/jquery-racing" githubLink="https://github.com/tCharlesworth/jquery-racing" />
-                        </div>
-                        <div className="half project-half right">
-                            <ProjectCard projectName="Kitchen Friend" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/onlineRecipes.png" projectLink="http://kitchenfriend.tcharlesworth.com/"/>
-                            <ProjectCard projectName="Meteors" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/meteors.png" projectLink="https://tcharlesworth.github.io/meteors" githubLink="https://github.com/tCharlesworth/meteors"/>
-                        </div>
-                        <div className="clearfix"></div>
+                        {this.state.projects.map((project) => {
+                            return (
+                                <ProjectCard project={project}/>
+                            );
+                        })}
                     </div>
                 </div>
             </div>

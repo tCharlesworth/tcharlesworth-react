@@ -22,7 +22,7 @@ class PanoramaView extends React.Component {
             <div className="wrapper-wide">
                 <p className="big-text page-padding-half text-blue">{this.state.title || 'Picture'}</p>
                 <div>
-                    <iframe width="800" height="400" style={{border: 'none', margin: 'auto', display: 'block'}} allowFullScreen src={"vendor/pannellum/pannellum.htm?panorama="+this.state.vrUrl}></iframe>
+                    <iframe width="800" height="400" style={{border: 'none', margin: 'auto', display: 'block'}} allowFullScreen src={"vendor/pannellum/pannellum.htm?panorama="+this.state.vrUrl+"&autoLoad=true&title="+this.state.title}></iframe>
                 </div>
             </div>
         )

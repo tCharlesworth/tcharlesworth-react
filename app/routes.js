@@ -7,6 +7,7 @@ import MainTemplate from './templates/main.js';
 import HomeView      from './views/home.js';
 import AboutView     from './views/about.js';
 import PortfolioView from './views/portfolio.js';
+import VrView        from './views/vr.js';
 
 // Route Config
 var routes = (
@@ -14,7 +15,8 @@ var routes = (
         <Route path="/" component={MainTemplate}>
             <IndexRoute component={HomeView} />
             <Route path="/portfolio" component={PortfolioView} />
-            <Route path="/about"    component={AboutView} />
+            <Route path="/about"     component={AboutView} />
+            <Route path="/vr"        component={VrView} />
         </Route>
     </Router>
 );

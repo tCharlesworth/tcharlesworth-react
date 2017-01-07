@@ -20,6 +20,7 @@ class HeaderComponent extends React.Component {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/portfolio">Portfolio</Link></li>
                         <li><Link to="/about">About</Link></li>
+                        <li><Link to="/vr">VR</Link></li>
                     </ul>
                     <div className="header-hamburger" onClick={ this.toggleDrawer.bind(this) }>
                         <i className="fa fa-bars fa-2x"></i>
@@ -32,6 +33,7 @@ class HeaderComponent extends React.Component {
                         <li><Link to="/" onClick={ this.toggleDrawer.bind(this) }>Home</Link></li>
                         <li><Link to="/portfolio" onClick={ this.toggleDrawer.bind(this) }>Portfolio</Link></li>
                         <li><Link to="/about" onClick={ this.toggleDrawer.bind(this) }>About</Link></li>
+                        <li><Link to="/vr" onClick={ this.toggleDrawer.bind(this) }>VR</Link></li>
                     </ul>
                 </nav>
             </header>

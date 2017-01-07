@@ -38,9 +38,18 @@ button:hover {
   width: 60%;
   margin: auto;
 }
+.wrapper-wide {
+  width: 80%;
+  margin: auto;
+}
 .container {
   width: 80%;
   margin: auto;
+}
+.container-fluid {
+  display: inline-block;
+  margin: 10px;
+  width: 250px;
 }
 .paragraph {
   text-align: center;

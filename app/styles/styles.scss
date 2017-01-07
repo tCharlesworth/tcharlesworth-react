@@ -48,7 +48,7 @@ button:hover {
 }
 .container-fluid {
   display: inline-block;
-  margin: 10px;
+  margin: 10px !important;
   width: 250px;
 }
 .paragraph {
@@ -249,7 +249,7 @@ header {
   position: fixed;
 }
 .projects {
-  .container {
+  .container, .container-fluid {
     margin: 60px auto;
     .project-header {
       font-size: 1em;

@@ -7,7 +7,7 @@ class AboutView extends React.Component {
                 <p className="big-text page-padding-half text-blue">About</p>
                 <div className="container">
                     <div className="right half">
-                        <img className="right img-responsive img-max-height" src={ "./assets/timface.jpg" } />
+                        <img className="right img-responsive img-max-height" src={ "https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/timface.jpg" } />
                     </div>
                     <p className="left half paragraph">
                         Hi i'm Tim Charlesworth I was born and raised in Utah and I love programming. After writing 

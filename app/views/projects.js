@@ -14,13 +14,13 @@ class ProjectsView extends React.Component {
                     </p>
                     <div className="projects">
                         <div className="half project-half left">
-                            <ProjectCard projectName="TinyTorch" projectImage="assets/tinytorch-snapshot.png" projectLink="https://www.tinytorch.com" />
-                            <ProjectCard projectName="Flat Notes" projectImage="assets/flatnotes.png" projectLink="https://flatnotes.firebaseapp.com" />
-                            <ProjectCard projectName="Jquery Racing" projectImage="assets/jquery-racing.png" projectLink="https://tcharlesworth.github.io/jquery-racing" githubLink="https://github.com/tCharlesworth/jquery-racing" />
+                            <ProjectCard projectName="TinyTorch" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/tinytorch-snapshot.png" projectLink="https://www.tinytorch.com" />
+                            <ProjectCard projectName="Flat Notes" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/flatnotes.png" projectLink="https://flatnotes.firebaseapp.com" />
+                            <ProjectCard projectName="Jquery Racing" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/jquery-racing.png" projectLink="https://tcharlesworth.github.io/jquery-racing" githubLink="https://github.com/tCharlesworth/jquery-racing" />
                         </div>
                         <div className="half project-half right">
-                            <ProjectCard projectName="Kitchen Friend" projectImage="assets/onlineRecipes.png" projectLink="http://kitchenfriend.tcharlesworth.com/"/>
-                            <ProjectCard projectName="Meteors" projectImage="assets/meteors.png" projectLink="https://tcharlesworth.github.io/meteors" githubLink="https://github.com/tCharlesworth/meteors"/>
+                            <ProjectCard projectName="Kitchen Friend" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/onlineRecipes.png" projectLink="http://kitchenfriend.tcharlesworth.com/"/>
+                            <ProjectCard projectName="Meteors" projectImage="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Projects/meteors.png" projectLink="https://tcharlesworth.github.io/meteors" githubLink="https://github.com/tCharlesworth/meteors"/>
                         </div>
                         <div className="clearfix"></div>
                     </div>

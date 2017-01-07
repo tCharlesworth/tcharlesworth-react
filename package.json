@@ -4,7 +4,8 @@
   "description": "Portfolio website built with reactjs",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base app/"
+    "start": "webpack-dev-server --content-base app/",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

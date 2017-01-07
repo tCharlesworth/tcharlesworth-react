@@ -213,7 +213,7 @@ header {
       color: black;
     }
     a:hover {
-      color: $color-green-dark;
+      color: $color-blue;
     }
   }
   .header-actions {
@@ -264,6 +264,9 @@ header {
 /* Tablet Size */
 @media (max-width: 600px) {
   header {
+    .header-title {
+      padding-top: 23px;
+    }
     .header-links {
       display: none;
     }
@@ -276,6 +279,21 @@ header {
     }
     .header-drawer {
       display: block;
+      font-size: 2em;
+      li {
+        padding: 10px;
+        border-bottom: thin solid $color-blue;
+        a {
+          display: block;
+        }
+      }
+      li:hover {
+        background-color: #fafafa;
+        cursor: pointer;
+        a {
+          color: $color-blue;
+        }
+      }
     }
   }
 

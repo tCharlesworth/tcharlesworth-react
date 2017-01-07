@@ -213,7 +213,7 @@ header {
       color: black;
     }
     a:hover {
-      color: $color-green-dark;
+      color: $color-blue;
     }
   }
   .header-actions {
@@ -241,7 +241,9 @@ header {
 }
 .projects {
   .container {
-    margin: 60px auto;
+    margin: 20px;
+    display: inline-block;
+    max-width: 250px;
     .project-header {
       font-size: 1em;
       i {
@@ -262,6 +264,9 @@ header {
 /* Tablet Size */
 @media (max-width: 600px) {
   header {
+    .header-title {
+      padding-top: 23px;
+    }
     .header-links {
       display: none;
     }
@@ -274,6 +279,21 @@ header {
     }
     .header-drawer {
       display: block;
+      font-size: 2em;
+      li {
+        padding: 10px;
+        border-bottom: thin solid $color-blue;
+        a {
+          display: block;
+        }
+      }
+      li:hover {
+        background-color: #fafafa;
+        cursor: pointer;
+        a {
+          color: $color-blue;
+        }
+      }
     }
   }
 
@@ -294,7 +314,24 @@ header {
     width: 100%;
     display: block;
   }
+  .left {
+    float: none;
+    margin: auto;
+  }
+  .right {
+    float: none;
+    margin: auto;
+  }
 }
 /* Mobile Size */
 @media (max-width: 400px) {
+  .social-box {
+    position: static;
+    display: block;
+    text-align: center;
+    li {
+      display: inline-block;
+      padding: 4px;
+    }
+  }
 }

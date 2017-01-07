@@ -5,10 +5,10 @@ class ProjectCardComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            projectName: props.projectName,
-            projectImage: props.projectImage,
-            projectLink: props.projectLink,
-            githubLink: props.githubLink
+            projectName: props.project.projectName,
+            projectImage: props.project.projectImage,
+            projectLink: props.project.projectLink,
+            githubLink: props.project.githubLink
         };
     }
     render() {

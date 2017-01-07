@@ -8,6 +8,7 @@ import HomeView      from './views/home.js';
 import AboutView     from './views/about.js';
 import PortfolioView from './views/portfolio.js';
 import VrView        from './views/vr.js';
+import PanoramaView  from './views/panorama.js';
 
 // Route Config
 var routes = (
@@ -17,6 +18,7 @@ var routes = (
             <Route path="/portfolio" component={PortfolioView} />
             <Route path="/about"     component={AboutView} />
             <Route path="/vr"        component={VrView} />
+            <Route path="/picture" component={PanoramaView} />
         </Route>
     </Router>
 );

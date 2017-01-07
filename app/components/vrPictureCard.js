@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router';
+
 class VrPictureCard extends React.Component {
     constructor(props) {
         super(props);
@@ -13,7 +15,7 @@ class VrPictureCard extends React.Component {
             <div className="container-fluid">
                 <img className="img-responsive" src={ this.state.pictureUrl } />
                 <div className="project-header">
-                    <h3 className="left inline">{ this.state.pictureTitle }</h3>
+                    <Link to="/picture" query={{title: this.state.pictureTitle, imageUrl: this.state.pictureUrl}}><h3 className="left inline">{ this.state.pictureTitle }</h3></Link>
                 </div>
             </div>
         )

@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProjectsView from './projects.js';
 import WorkExperienceView from './workExperience.js';
+import ResumeView from './resume.js';
 
 class PortfolioView extends React.Component {
     render() {
@@ -19,6 +20,8 @@ class PortfolioView extends React.Component {
                 <div className="page-padding-half"></div>
                 <WorkExperienceView />
                 <ProjectsView />
+                <ResumeView />
+                <div className="page-padding-half"></div>
             </div>
         )
     }

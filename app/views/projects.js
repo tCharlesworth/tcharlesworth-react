@@ -33,6 +33,7 @@ class ProjectsView extends React.Component {
                         })}
                     </div>
                 </div>
+                <div className="clear"></div>
             </div>
         )
     }

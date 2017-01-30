@@ -10,7 +10,7 @@ class ResumeView extends React.Component {
                         To download a pdf copy of my resume, click the link below!
                     </p>
                     <p className="text-center">
-                        <a className="link" href="../resources/TimCharlesworthResume.pdf" download>TimCharlesworthResume.pdf</a>
+                        <a className="link" href="https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Files/TimCharlesworthResume.pdf" download>TimCharlesworthResume.pdf</a>
                     </p>
                 </div>
             </div>

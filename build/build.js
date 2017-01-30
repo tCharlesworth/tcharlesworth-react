@@ -49,7 +49,6 @@
 	__webpack_require__(1);
 	__webpack_require__(271);
 	__webpack_require__(272);
-	__webpack_require__(273);
 
 /***/ },
 /* 1 */
@@ -30559,7 +30558,7 @@
 	                        { className: "text-center" },
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "link", href: "../resources/TimCharlesworthResume.pdf", download: true },
+	                            { className: "link", href: "https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Files/TimCharlesworthResume.pdf", download: true },
 	                            "TimCharlesworthResume.pdf"
 	                        )
 	                    )
@@ -30584,12 +30583,6 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "server.js";
-
-/***/ },
-/* 273 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "TimCharlesworthResume.pdf";
 
 /***/ }
 /******/ ]);

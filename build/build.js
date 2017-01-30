@@ -47,8 +47,8 @@
 	'use strict';
 
 	__webpack_require__(1);
-	__webpack_require__(270);
 	__webpack_require__(271);
+	__webpack_require__(272);
 
 /***/ },
 /* 1 */
@@ -21534,7 +21534,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  background: #F4F4F4;\n  font-family: 'Open Sans', sans-serif;\n  color: #6A6C6E; }\n\n* {\n  box-sizing: border-box;\n  font-family: 'Roboto', sans-serif; }\n\nh1 {\n  margin: 20px 0; }\n\nbutton {\n  padding: 12px 24px;\n  font-size: medium;\n  display: inline;\n  background: #6eb800;\n  color: #fff;\n  border: none; }\n\nbutton:hover {\n  cursor: pointer;\n  background-color: #8DE212; }\n\n.btn-block {\n  width: 100%; }\n\n.wrapper {\n  width: 60%;\n  margin: auto; }\n\n.container {\n  width: 80%;\n  margin: auto; }\n\n.paragraph {\n  text-align: center; }\n\n.left {\n  float: left; }\n\n.right {\n  float: right; }\n\n.middle {\n  margin: auto; }\n\n.clearfix {\n  clear: both; }\n\n.half {\n  width: 50%; }\n\n.hori-half {\n  width: 50vw; }\n\n.vert-half {\n  height: 30vh; }\n\n.bottom-left {\n  position: absolute;\n  bottom: 0;\n  left: 0; }\n\n.bottom-right {\n  position: absolute;\n  bottom: 0;\n  right: 0; }\n\n.majority {\n  width: 66%;\n  display: inline-block; }\n\n.third {\n  width: 33%;\n  display: inline-block; }\n\n.text-center {\n  text-align: center; }\n\n.text-white {\n  color: #fff; }\n\n.link-white {\n  color: #fff; }\n\n.link-white:visited {\n  color: #fff; }\n\n.link-white:hover {\n  color: #fff;\n  cursor: pointer; }\n\n.text-blue {\n  color: #658DB5; }\n\n.bg-white {\n  background-color: #fff; }\n\n.cursor-hover:hover {\n  cursor: pointer; }\n\n.img-responsive {\n  width: 100%;\n  height: auto; }\n\n.img-max-height {\n  max-height: 250px;\n  width: auto; }\n\ninput[type=\"text\"], input[type=\"password\"], input[type=\"email\"] {\n  width: 100%;\n  padding: 6px;\n  margin: 10px 0; }\n\ninput[type=\"text\"]:focus, input[type=\"password\"]:focus, input[type=\"email\"]:focus {\n  outline: none; }\n\na {\n  text-decoration: none;\n  color: #6A6C6E; }\n\na:visited {\n  color: #6A6C6E; }\n\na:hover {\n  color: #658DB5; }\n\nul {\n  list-style-type: none;\n  padding-left: 0; }\n\n.drawer {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.6s ease; }\n\n.drawer-open {\n  max-height: 100vh; }\n\n.appear-enter {\n  transition-duration: 0.7s;\n  transition-property: opacity;\n  transition-timing-function: ease-in-out;\n  opacity: 0; }\n\n.appear-enter.appear-enter-active {\n  opacity: 1; }\n\n.appear-leave {\n  opacity: 0; }\n\n.inline {\n  display: inline-block; }\n\n/* Default Size */\nheader {\n  padding: 0 15px;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  background: #fff; }\n  header .header-title {\n    margin: auto;\n    width: 250px;\n    font-size: medium;\n    padding-top: 15px; }\n    header .header-title h1 {\n      margin: 0;\n      text-align: center; }\n  header .header-links {\n    float: left;\n    list-style-type: none;\n    text-align: center; }\n    header .header-links li {\n      display: inline;\n      padding: 0 5px; }\n  header .header-hamburger {\n    margin: 20px 0;\n    display: none;\n    cursor: pointer; }\n  header .header-drawer {\n    display: none;\n    list-style-type: none;\n    margin: 0; }\n    header .header-drawer div {\n      border-top: thin solid grey;\n      padding: 5px 10px; }\n    header .header-drawer a {\n      text-decoration: none;\n      color: black; }\n    header .header-drawer a:visited {\n      color: black; }\n    header .header-drawer a:hover {\n      color: #658DB5; }\n  header .header-actions {\n    float: right;\n    padding-top: 10px; }\n\n.big-text {\n  font-size: 4em; }\n\n.medium-text {\n  font-size: 2.2em; }\n\n.page-padding {\n  padding-top: 30vh; }\n\n.page-padding-half {\n  padding-top: 10vh; }\n\n.social-box {\n  background: #fff;\n  padding: 10px;\n  bottom: 10vh;\n  position: fixed; }\n\n.projects .container {\n  margin: 20px;\n  display: inline-block;\n  max-width: 250px; }\n  .projects .container .project-header {\n    font-size: 1em; }\n    .projects .container .project-header i {\n      margin-top: 8px;\n      margin-right: 8px; }\n  .projects .container h3 {\n    font-style: italic;\n    padding: 5px;\n    margin: 0; }\n\n/* Tablet Size */\n@media (max-width: 600px) {\n  header .header-title {\n    padding-top: 23px; }\n  header .header-links {\n    display: none; }\n  header .header-actions {\n    display: none; }\n  header .header-hamburger {\n    display: block;\n    float: right; }\n  header .header-drawer {\n    display: block;\n    font-size: 2em; }\n    header .header-drawer li {\n      padding: 10px;\n      border-bottom: thin solid #658DB5; }\n      header .header-drawer li a {\n        display: block; }\n    header .header-drawer li:hover {\n      background-color: #fafafa;\n      cursor: pointer; }\n      header .header-drawer li:hover a {\n        color: #658DB5; }\n  .third {\n    width: 100%;\n    display: block; }\n  .wrapper {\n    width: 80%; }\n  .container {\n    width: 90%; }\n  .half {\n    width: 100%;\n    display: block; }\n  .left {\n    float: none;\n    margin: auto; }\n  .right {\n    float: none;\n    margin: auto; } }\n\n/* Mobile Size */\n@media (max-width: 400px) {\n  .social-box {\n    position: static;\n    display: block;\n    text-align: center; }\n    .social-box li {\n      display: inline-block;\n      padding: 4px; } }\n", ""]);
+	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  background: #F4F4F4;\n  font-family: 'Open Sans', sans-serif;\n  color: #6A6C6E; }\n\n* {\n  box-sizing: border-box;\n  font-family: 'Roboto', sans-serif; }\n\nh1 {\n  margin: 20px 0; }\n\nbutton {\n  padding: 12px 24px;\n  font-size: medium;\n  display: inline;\n  background: #6eb800;\n  color: #fff;\n  border: none; }\n\nbutton:hover {\n  cursor: pointer;\n  background-color: #8DE212; }\n\n.btn-block {\n  width: 100%; }\n\n.wrapper {\n  width: 60%;\n  margin: auto; }\n\n.container {\n  width: 80%;\n  margin: auto; }\n\n.paragraph {\n  text-align: center; }\n\n.left {\n  float: left; }\n\n.right {\n  float: right; }\n\n.middle {\n  margin: auto; }\n\n.clearfix {\n  clear: both; }\n\n.half {\n  width: 50%; }\n\n.hori-half {\n  width: 50vw; }\n\n.vert-half {\n  height: 30vh; }\n\n.bottom-left {\n  position: absolute;\n  bottom: 0;\n  left: 0; }\n\n.bottom-right {\n  position: absolute;\n  bottom: 0;\n  right: 0; }\n\n.majority {\n  width: 66%;\n  display: inline-block; }\n\n.third {\n  width: 33%;\n  display: inline-block; }\n\n.text-center {\n  text-align: center; }\n\n.text-white {\n  color: #fff; }\n\n.link {\n  text-decoration: underline; }\n\n.link-white {\n  color: #fff; }\n\n.link-white:visited {\n  color: #fff; }\n\n.link-white:hover {\n  color: #fff;\n  cursor: pointer; }\n\n.text-blue {\n  color: #658DB5; }\n\n.bg-white {\n  background-color: #fff; }\n\n.cursor-hover:hover {\n  cursor: pointer; }\n\n.img-responsive {\n  width: 100%;\n  height: auto; }\n\n.img-max-height {\n  max-height: 250px;\n  width: auto; }\n\ninput[type=\"text\"], input[type=\"password\"], input[type=\"email\"] {\n  width: 100%;\n  padding: 6px;\n  margin: 10px 0; }\n\ninput[type=\"text\"]:focus, input[type=\"password\"]:focus, input[type=\"email\"]:focus {\n  outline: none; }\n\na {\n  text-decoration: none;\n  color: #6A6C6E; }\n\na:visited {\n  color: #6A6C6E; }\n\na:hover {\n  color: #658DB5; }\n\nul {\n  list-style-type: none;\n  padding-left: 0; }\n\n.drawer {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.6s ease; }\n\n.drawer-open {\n  max-height: 100vh; }\n\n.appear-enter {\n  transition-duration: 0.7s;\n  transition-property: opacity;\n  transition-timing-function: ease-in-out;\n  opacity: 0; }\n\n.appear-enter.appear-enter-active {\n  opacity: 1; }\n\n.appear-leave {\n  opacity: 0; }\n\n.inline {\n  display: inline-block; }\n\n/* Default Size */\nheader {\n  padding: 0 15px;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  background: #fff; }\n  header .header-title {\n    margin: auto;\n    width: 250px;\n    font-size: medium;\n    padding-top: 15px; }\n    header .header-title h1 {\n      margin: 0;\n      text-align: center; }\n  header .header-links {\n    float: left;\n    list-style-type: none;\n    text-align: center; }\n    header .header-links li {\n      display: inline;\n      padding: 0 5px; }\n  header .header-hamburger {\n    margin: 20px 0;\n    display: none;\n    cursor: pointer; }\n  header .header-drawer {\n    display: none;\n    list-style-type: none;\n    margin: 0; }\n    header .header-drawer div {\n      border-top: thin solid grey;\n      padding: 5px 10px; }\n    header .header-drawer a {\n      text-decoration: none;\n      color: black; }\n    header .header-drawer a:visited {\n      color: black; }\n    header .header-drawer a:hover {\n      color: #658DB5; }\n  header .header-actions {\n    float: right;\n    padding-top: 10px; }\n\n.big-text {\n  font-size: 4em; }\n\n.medium-text {\n  font-size: 2.2em; }\n\n.page-padding {\n  padding-top: 30vh; }\n\n.page-padding-half {\n  padding-top: 10vh; }\n\n.social-box {\n  background: #fff;\n  padding: 10px;\n  bottom: 10vh;\n  position: fixed; }\n\n.projects .container {\n  margin: 20px;\n  display: inline-block;\n  max-width: 250px; }\n  .projects .container .project-header {\n    font-size: 1em; }\n    .projects .container .project-header i {\n      margin-top: 8px;\n      margin-right: 8px; }\n  .projects .container h3 {\n    font-style: italic;\n    padding: 5px;\n    margin: 0; }\n\n/* Tablet Size */\n@media (max-width: 600px) {\n  header .header-title {\n    padding-top: 23px; }\n  header .header-links {\n    display: none; }\n  header .header-actions {\n    display: none; }\n  header .header-hamburger {\n    display: block;\n    float: right; }\n  header .header-drawer {\n    display: block;\n    font-size: 2em; }\n    header .header-drawer li {\n      padding: 10px;\n      border-bottom: thin solid #658DB5; }\n      header .header-drawer li a {\n        display: block; }\n    header .header-drawer li:hover {\n      background-color: #fafafa;\n      cursor: pointer; }\n      header .header-drawer li:hover a {\n        color: #658DB5; }\n  .third {\n    width: 100%;\n    display: block; }\n  .wrapper {\n    width: 80%; }\n  .container {\n    width: 90%; }\n  .half {\n    width: 100%;\n    display: block; }\n  .left {\n    float: none;\n    margin: auto; }\n  .right {\n    float: none;\n    margin: auto; } }\n\n/* Mobile Size */\n@media (max-width: 400px) {\n  .social-box {\n    position: static;\n    display: block;\n    text-align: center; }\n    .social-box li {\n      display: inline-block;\n      padding: 4px; } }\n", ""]);
 
 	// exports
 
@@ -30121,6 +30121,10 @@
 
 	var _workExperience2 = _interopRequireDefault(_workExperience);
 
+	var _resume = __webpack_require__(270);
+
+	var _resume2 = _interopRequireDefault(_resume);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30179,7 +30183,9 @@
 	                ),
 	                _react2.default.createElement('div', { className: 'page-padding-half' }),
 	                _react2.default.createElement(_workExperience2.default, null),
-	                _react2.default.createElement(_projects2.default, null)
+	                _react2.default.createElement(_projects2.default, null),
+	                _react2.default.createElement(_resume2.default, null),
+	                _react2.default.createElement('div', { className: 'page-padding-half' })
 	            );
 	        }
 	    }]);
@@ -30269,7 +30275,8 @@
 	                            return _react2.default.createElement(_projectCard2.default, { key: project.id, project: project });
 	                        })
 	                    )
-	                )
+	                ),
+	                _react2.default.createElement('div', { className: 'clear' })
 	            );
 	        }
 	    }]);
@@ -30498,10 +30505,81 @@
 /* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "index.html";
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var ResumeView = function (_React$Component) {
+	    _inherits(ResumeView, _React$Component);
+
+	    function ResumeView() {
+	        _classCallCheck(this, ResumeView);
+
+	        return _possibleConstructorReturn(this, (ResumeView.__proto__ || Object.getPrototypeOf(ResumeView)).apply(this, arguments));
+	    }
+
+	    _createClass(ResumeView, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                null,
+	                _react2.default.createElement(
+	                    "p",
+	                    { className: "big-text page-padding-half text-blue" },
+	                    "Resume"
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "container" },
+	                    _react2.default.createElement(
+	                        "p",
+	                        { className: "paragraph" },
+	                        "To download a pdf copy of my resume, click the link below!"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        { className: "text-center" },
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "link", href: "../resources/TimCharlesworthResume.pdf", download: true },
+	                            "TimCharlesworthResume.pdf"
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+
+	    return ResumeView;
+	}(_react2.default.Component);
+
+	exports.default = ResumeView;
 
 /***/ },
 /* 271 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "index.html";
+
+/***/ },
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "server.js";

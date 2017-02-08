@@ -30558,7 +30558,7 @@
 	                        { className: "text-center" },
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "link", href: "https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Files/TimCharlesworthResume.pdf", download: true },
+	                            { className: "link", href: "https://s3-us-west-2.amazonaws.com/tcharlesworth-portfolio/Files/Resume_Tim_Charlesworth.pdf", download: true },
 	                            "TimCharlesworthResume.pdf"
 	                        )
 	                    )
